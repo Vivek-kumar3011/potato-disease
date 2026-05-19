@@ -12,7 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
-    "https://potato-disease-henna.vercel.app"
+    "https://potato-disease-henna.vercel.app",
 ]
 app.add_middleware(
     CORSMiddleware,
